@@ -28,4 +28,4 @@ For anyone who want to test the app on different Windows 10 version, simply get 
 
 ## Releases
 
-Get the latest release here: [Download][https://emandevi.github.io/downloads.html]
+Get the latest release here: [Download](https://emandev.github.io/downloads.html)
