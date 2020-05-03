@@ -28,9 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
             this.materialButton2 = new MaterialSkin.Controls.MaterialButton();
             this.materialButton3 = new MaterialSkin.Controls.MaterialButton();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // materialButton1
@@ -47,6 +49,7 @@
             this.materialButton1.Size = new System.Drawing.Size(123, 36);
             this.materialButton1.TabIndex = 0;
             this.materialButton1.Text = "Tool Version";
+            this.toolTip1.SetToolTip(this.materialButton1, "Check tool version");
             this.materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton1.UseAccentColor = false;
             this.materialButton1.UseVisualStyleBackColor = true;
@@ -66,6 +69,7 @@
             this.materialButton2.Size = new System.Drawing.Size(119, 36);
             this.materialButton2.TabIndex = 1;
             this.materialButton2.Text = "Source Code";
+            this.toolTip1.SetToolTip(this.materialButton2, "View source code.");
             this.materialButton2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton2.UseAccentColor = false;
             this.materialButton2.UseVisualStyleBackColor = true;
@@ -85,6 +89,7 @@
             this.materialButton3.Size = new System.Drawing.Size(109, 36);
             this.materialButton3.TabIndex = 2;
             this.materialButton3.Text = "Report Bug";
+            this.toolTip1.SetToolTip(this.materialButton3, "Report tool issue.");
             this.materialButton3.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton3.UseAccentColor = false;
             this.materialButton3.UseVisualStyleBackColor = true;
@@ -116,5 +121,6 @@
         private MaterialSkin.Controls.MaterialButton materialButton1;
         private MaterialSkin.Controls.MaterialButton materialButton2;
         private MaterialSkin.Controls.MaterialButton materialButton3;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }

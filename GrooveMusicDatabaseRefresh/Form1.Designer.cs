@@ -28,11 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
             this.materialButton2 = new MaterialSkin.Controls.MaterialButton();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // materialButton1
@@ -49,6 +51,7 @@
             this.materialButton1.Size = new System.Drawing.Size(272, 36);
             this.materialButton1.TabIndex = 0;
             this.materialButton1.Text = "Refresh Groove Music Database";
+            this.toolTip1.SetToolTip(this.materialButton1, "Refreshes the music database.");
             this.materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton1.UseAccentColor = false;
             this.materialButton1.UseVisualStyleBackColor = true;
@@ -68,6 +71,7 @@
             this.materialButton2.Size = new System.Drawing.Size(58, 36);
             this.materialButton2.TabIndex = 1;
             this.materialButton2.Text = "Help";
+            this.toolTip1.SetToolTip(this.materialButton2, "Open help menu.");
             this.materialButton2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton2.UseAccentColor = false;
             this.materialButton2.UseVisualStyleBackColor = true;
@@ -136,6 +140,7 @@
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
         private MaterialSkin.Controls.MaterialLabel materialLabel3;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
 

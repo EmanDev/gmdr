@@ -33,7 +33,7 @@ namespace GrooveMusicDatabaseRefresh
 
         private void materialButton1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Groove Music Database Refresher Version 1.0", "Tool Version", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Groove Music Database Refresher Version 1.1 by Eman Marcaida", "Tool Version", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void materialButton2_Click(object sender, EventArgs e)
