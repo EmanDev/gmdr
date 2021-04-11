@@ -11,3 +11,16 @@ C:\Users\gamea\source\repos\GrooveMusicDatabaseRefresh\GrooveMusicDatabaseRefres
 C:\Users\gamea\source\repos\GrooveMusicDatabaseRefresh\GrooveMusicDatabaseRefresh\obj\Debug\GrooveMusicDatabaseRefresh.exe
 C:\Users\gamea\source\repos\GrooveMusicDatabaseRefresh\GrooveMusicDatabaseRefresh\obj\Debug\GrooveMusicDatabaseRefresh.pdb
 C:\Users\gamea\source\repos\GrooveMusicDatabaseRefresh\GrooveMusicDatabaseRefresh\obj\Debug\GrooveMusicDatabaseRefresh.Form2.resources
+C:\Users\gamea\Documents\GitHub\gmdr\GrooveMusicDatabaseRefresh\bin\Debug\GrooveMusicDatabaseRefresh.exe.config
+C:\Users\gamea\Documents\GitHub\gmdr\GrooveMusicDatabaseRefresh\bin\Debug\GrooveMusicDatabaseRefresh.exe
+C:\Users\gamea\Documents\GitHub\gmdr\GrooveMusicDatabaseRefresh\bin\Debug\GrooveMusicDatabaseRefresh.pdb
+C:\Users\gamea\Documents\GitHub\gmdr\GrooveMusicDatabaseRefresh\bin\Debug\MaterialSkin.dll
+C:\Users\gamea\Documents\GitHub\gmdr\GrooveMusicDatabaseRefresh\obj\Debug\GrooveMusicDatabaseRefresh.Form1.resources
+C:\Users\gamea\Documents\GitHub\gmdr\GrooveMusicDatabaseRefresh\obj\Debug\GrooveMusicDatabaseRefresh.Form2.resources
+C:\Users\gamea\Documents\GitHub\gmdr\GrooveMusicDatabaseRefresh\obj\Debug\GrooveMusicDatabaseRefresh.Properties.Resources.resources
+C:\Users\gamea\Documents\GitHub\gmdr\GrooveMusicDatabaseRefresh\obj\Debug\GrooveMusicDatabaseRefresh.csproj.GenerateResource.cache
+C:\Users\gamea\Documents\GitHub\gmdr\GrooveMusicDatabaseRefresh\obj\Debug\GrooveMusicDatabaseRefresh.csproj.CoreCompileInputs.cache
+C:\Users\gamea\Documents\GitHub\gmdr\GrooveMusicDatabaseRefresh\obj\Debug\GrooveMusicDatabaseRefresh.csproj.CopyComplete
+C:\Users\gamea\Documents\GitHub\gmdr\GrooveMusicDatabaseRefresh\obj\Debug\GrooveMusicDatabaseRefresh.exe
+C:\Users\gamea\Documents\GitHub\gmdr\GrooveMusicDatabaseRefresh\obj\Debug\GrooveMusicDatabaseRefresh.pdb
+C:\Users\gamea\Documents\GitHub\gmdr\GrooveMusicDatabaseRefresh\obj\Debug\GrooveMusicDatabaseRefresh.csprojAssemblyReference.cache

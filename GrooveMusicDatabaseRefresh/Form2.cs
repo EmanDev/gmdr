@@ -28,12 +28,41 @@ namespace GrooveMusicDatabaseRefresh
 
         private void Form2_Load(object sender, EventArgs e)
         {
+            
+        }
 
+        // Disable Windows State Maximize
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                const int WS_MAXIMIZEBOX = 0x00010000;
+                var cp = base.CreateParams;
+                cp.Style &= ~WS_MAXIMIZEBOX;
+                return cp;
+            }
+
+        }
+
+        // Disable Windows State Minimize
+        private const int WM_SYSCOMMAND = 0x0112;
+        private const int SC_MINIMIZE = 0xf020;
+        protected override void WndProc(ref Message m)
+        {
+            if (m.Msg == WM_SYSCOMMAND)
+            {
+                if (m.WParam.ToInt32() == SC_MINIMIZE)
+                {
+                    m.Result = IntPtr.Zero;
+                    return;
+                }
+            }
+            base.WndProc(ref m);
         }
 
         private void materialButton1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Groove Music Database Refresher Version 1.1 by Eman Marcaida", "Tool Version", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Groove Music Database Refresher Version 1.2 by Eman Marcaida", "Tool Version", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void materialButton2_Click(object sender, EventArgs e)

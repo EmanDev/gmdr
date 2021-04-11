@@ -29,7 +29,19 @@ namespace GrooveMusicDatabaseRefresh
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            
+        }
 
+        // Disable Windows State Maximize
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                const int WS_MAXIMIZEBOX = 0x00010000;
+                var cp = base.CreateParams;
+                cp.Style &= ~WS_MAXIMIZEBOX;
+                return cp;
+            }
         }
 
         private void materialButton2_Click(object sender, EventArgs e)

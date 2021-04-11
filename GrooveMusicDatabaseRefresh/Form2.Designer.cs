@@ -108,6 +108,7 @@
             this.Name = "Form2";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
+            this.Sizable = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Help";
             this.Load += new System.EventHandler(this.Form2_Load);
