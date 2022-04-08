@@ -1,6 +1,9 @@
 # Groove Music Database Refresher (GMDR)
 Groove Music Database Refresher (GMDR) is a tool that refreshes the media database of [Groove Music App](https://www.microsoft.com/en-us/p/groove-music/9wzdncrfj3pt?activetab=pivot:overviewtab) on Windows 10.
 
+## Archived
+Archived since Groove will be replaced by Media Player that is now currently avaialble on Windows 11. This should still work with Windows versions listed here. However, this will not receive any supprot/update anymore. Use at your own risk. Thank You!
+
 
 
 ## Build
